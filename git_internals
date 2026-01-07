@@ -55,4 +55,6 @@ git commit -am "Wrote lots of code"
 git cat-file -p c9d9
 
 
-“git rev-list --objects --all” will display all of the objects in your repository.  
+“git rev-list --objects --all” will display all of the objects in your repository
+
+<SHA-1> <type> <uncompressed_size> <compressed_size> <offset> [delta info]
