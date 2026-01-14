@@ -58,3 +58,45 @@ git cat-file -p c9d9
 “git rev-list --objects --all” will display all of the objects in your repository
 
 <SHA-1> <type> <uncompressed_size> <compressed_size> <offset> [delta info]
+
+
+----------------------------------
+Version control system -> end users
+Content addressable system
+
+
+Local VCS -> RVS
+central VCS -> SVN(Apache Subversion), perforce
+distributed VCS: GIT, Bazaar, mercurial
+
+
+HASH("Shubham") -> iuusde2w34
+HASH("1Shubham") -> iuusde2w34dfrer
+
+
+Dehash("iuusde2w34") -> Not possible
+
+Shasum 256
+
+
+commit (a1f372ef6eb710eccde76628c89ea7bafeda73f5)
+  ↓ points to
+tree (13df215d07ea4d7bbf919d2b279b13b6d1749d6d)
+  ↓ contains entries
+blob/tree (557db03de997c86a4a028e1ebd3a1ceb225be238)
+
+
+parent (a1f3)
+    ^^^
+commit (6d28)
+  ↓ points to
+tree (937a)
+  ↓ contains entries
+blob/tree (557d)
+
+
+
+
+
+
+
